@@ -1,5 +1,5 @@
 #Programming assignment 1 in class 2
-
+#Cycles through a collection of data sets stored as CSV and returns the number of complete observations in each.
 setwd("")
 
 complete <- function(directory,id = 1:332) {
@@ -28,8 +28,4 @@ complete <- function(directory,id = 1:332) {
   return(data.frame(id = ids, nobs = nobs))
 }
 
-complete("specdata", 1)
-complete("specdata", c(2, 4, 8, 10, 12))
-complete("specdata", 30:25)
-complete("specdata", 3)
 
