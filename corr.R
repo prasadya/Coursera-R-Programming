@@ -1,4 +1,5 @@
 #Programming assignment 1 in class 2
+#Sets a minimum threshold on the number of complete cases in the specdata data sets.  Returns a vector of correlation factors.
 
 setwd("")
 
