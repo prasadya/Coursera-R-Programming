@@ -1,6 +1,6 @@
 #Programming assignment 1 in class 2
 
-setwd("/Users/yashvirprasad/Desktop/Coursera Data Science/class2")
+setwd("")
 
 pollutantmean <- function(directory, pollutant,id = 1:332) {
   
