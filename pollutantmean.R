@@ -1,4 +1,5 @@
 #Programming assignment 1 in class 2
+#Calculates the mean of the combined specdata datasets as specified by the id parameter.
 
 setwd("")
 
