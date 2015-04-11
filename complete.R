@@ -1,6 +1,6 @@
 #Programming assignment 1 in class 2
 
-setwd("/Users/yashvirprasad/Desktop/Coursera Data Science/class2")
+setwd("")
 
 complete <- function(directory,id = 1:332) {
   
