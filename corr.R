@@ -14,8 +14,8 @@ corr <- function(directory, threshold = 0) {
   files <- as.character(list.files(directory))
   paths <- paste(directory,files, sep = "")
   cord <- as.numeric(c())
-  # loop through files by id index
   
+  # loop through files by id index
   for (item in paths){
     specDataTemp <- read.csv(item, header = TRUE)
     pollutantNA <- complete.cases(specDataTemp)
