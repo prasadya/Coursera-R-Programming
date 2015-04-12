@@ -25,8 +25,3 @@ pollutantmean <- function(directory, pollutant,id = 1:332) {
 
    return (mean(mean_vector))
 }
-
-
-pollutantmean("specdata", "sulfate", 1:10) == 4.064
-pollutantmean("specdata", "nitrate", 70:72) == 1.706
-pollutantmean("specdata", "nitrate", 23) == 1.281
