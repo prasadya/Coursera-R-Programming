@@ -27,9 +27,3 @@ corr <- function(directory, threshold = 0) {
   }
   return(cord)
 }
-
-cr <- corr("specdata")
-head(cr)
-summary(cr)
-length(cr)
-
